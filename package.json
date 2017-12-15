@@ -1,4 +1,19 @@
 {
-  "name": "d-p-vacuate",
-  "version": "v1.0.0"
+  "name": "vacuate",
+  "description": "This is a vacuate algorithm realization building on douglas-peucker",
+  "version": "1.0.0",
+  "author": "betsey liu",
+  "homepage": "https://github.com/betseyliu/Douglas-Peucker",
+  "keywords": [
+    "vacuate",
+    "douglas",
+    "douglas peucker",
+    "geojson"
+  ],
+  "license": "MIT",
+  "main": "DouglasPeucker.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/betseyliu/Douglas-Peucker.git"
+  },
 }
