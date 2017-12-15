@@ -44,7 +44,7 @@ class DPAlgorithm {
     const x1 = endPoint[0] - startPoint[0]
     const y1 = endPoint[1] - startPoint[1]
     const x2 = endPoint[0] - comparePoint[0]
-    const y2 = endPoint[1] - comparePoint[1]
+    const y2 = endPoint[1] - comparePoint[1]  
 
     const beDist = Math.sqrt((startPoint[0] - endPoint[0]) ** 2 + (startPoint[1] - endPoint[1]) ** 2)
     return Math.abs(x1 * y2 - x2 * y1) / beDist
@@ -52,6 +52,6 @@ class DPAlgorithm {
 }
 
 
-export default vacuate = (points, tolerance) => {
+export default function (points, tolerance) {
   return new DPAlgorithm(points, tolerance).vacuate()
 }
