@@ -1,19 +1,25 @@
 {
   "name": "vacuate",
-  "description": "This is a vacuate algorithm realization building on douglas-peucker",
   "version": "1.0.0",
-  "author": "betsey liu",
-  "homepage": "https://github.com/betseyliu/Douglas-Peucker",
+  "description": "this is a vacuate realization building on douglas peucker algorithm",
+  "main": "DouglasPeucker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betseyliu/vacuate.git"
+  },
   "keywords": [
     "vacuate",
     "douglas",
-    "douglas peucker",
+    "peucker",
     "geojson"
   ],
+  "author": "betsey liu",
   "license": "MIT",
-  "main": "DouglasPeucker.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/betseyliu/Douglas-Peucker.git"
+  "bugs": {
+    "url": "https://github.com/betseyliu/vacuate/issues"
   },
+  "homepage": "https://github.com/betseyliu/vacuate#readme"
 }
