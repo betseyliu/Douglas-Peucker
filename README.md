@@ -1,4 +1,4 @@
-# Douglas Peucker抽稀算法的JavaScript实现
+# Douglas Peucker抽稀算法的JavaScript实现
 
 ## 用法
 
