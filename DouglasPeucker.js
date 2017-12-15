@@ -52,6 +52,8 @@ class DPAlgorithm {
 }
 
 
-export default function (points, tolerance) {
+
+module.exports = (points, tolerance) => {
   return new DPAlgorithm(points, tolerance).vacuate()
 }
+
