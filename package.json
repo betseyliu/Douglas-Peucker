@@ -1,6 +1,6 @@
 {
   "name": "vacuate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is a vacuate realization building on douglas peucker algorithm",
   "main": "./dist/vacuate.js",
   "scripts": {
